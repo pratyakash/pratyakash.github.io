@@ -356,15 +356,15 @@ a
       {
         display:inline;
         padding: 3%;
-        margin-left: 2%;
+        margin-left: 3%;
         font-size: 5px;
       }
    .img-thumbnail
     {
       height: 300px;
       box-shadow: 5px 8px 6px -4px #999;
-      margin-left: 8%;
-      margin-right: 7%;
+      margin-left: 6%;
+      margin-right: 9%;
     }
   }
 
