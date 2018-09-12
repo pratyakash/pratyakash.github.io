@@ -347,10 +347,19 @@ a
       display:inline;
       padding: 4%;
       margin-left: 3%;
-      margin-right: auto;
       font-size: 5px;          
     }
 }
+@media only screen and (max-width: 514px) 
+  {
+    ul#social li 
+      {
+        display:inline;
+        padding: 3%;
+        margin-left: 3%;
+        font-size: 5px;
+      }
+  }
 
 .just
 {
