@@ -342,6 +342,13 @@ a
       font-family: 'Bree Serif', serif;
       font-weight: bold;
     }
+   ul#social li 
+    {
+      display:inline;
+      padding: 4%;
+      margin-left: 3%;
+      margin-right: auto;
+    }
 }
 
 .just
