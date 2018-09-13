@@ -182,7 +182,7 @@ a
 .me
   {
     font-size:2.6rem; 
-    font-family: 'Bree Serif', serif;
+    font-family: 'Ubuntu', sans-serif;
   }
 
 .college
@@ -192,8 +192,7 @@ a
 
 .sum
   {
-    font-family: 'Bree Serif', serif;
-    font-weight: 10%;
+    font-family: 'Ubuntu', sans-serif;
   }
 
 .text
@@ -216,7 +215,8 @@ a
 .paper
   {
     font-size: 5rem;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
   }
 
 .center, .center-align 
@@ -226,8 +226,7 @@ a
 
 .machine
   {
-    font-family: 'Bree Serif', serif;
-    font-weight: 10%;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
   }
 
@@ -340,7 +339,7 @@ a
    .paper
     {
       font-size: 2.5rem;
-      font-family: 'Bree Serif', serif;
+      font-family: 'Ubuntu', sans-serif;
       font-weight: bold;
     }
    ul#social li 
@@ -374,5 +373,38 @@ a
   justify-content: left;
 }
 
+/**************************************
+                Footer CSS
+**************************************/
+.foot
+{
+  background-color: #62666d;
+  height: 5%;
+  color: white;
+}
+
+.add
+{
+  padding-left: 5%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-top: 1%;
+  vertical-align: middle;
+}
+
+.file
+{
+  margin-left: 60%;
+  padding-right: 4%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-top: .5%;
+}
+
+.saini
+  {
+    color: white;
+    font-weight: bold;
+  }
 
 
