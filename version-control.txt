@@ -1,0 +1,91 @@
+******************************13-09-2018******************************
+
+>Removing <div class="parallax-container">
+      		  <div class="parallax"><img src="Images/parallex/thanksGoodbye.jpg"></div>
+          </div>
+         
+>New Footer
+	>><footer>
+	    <div class="row foot">
+	    	<div class="col-md-6 col-xs-6">
+				<address class="add">
+					Written by: <a href="mailto:webmaster@example.com" class="saini">Pratyakash Saini</a><br> 
+				</address>	
+			</div>
+			<div class="col-md-6 col-xs-6">
+				<a href="Docs/pratyakash13@gmail.com.pdf" download><i class="fa fa-file-pdf-o file" style="font-size:20px;color:white"></i></a>
+			</div>
+		</div>
+	</footer>
+>Change of Fonts for faster loading
+	>>.me
+			{
+				font-size:2.6rem; 
+				font-family: 'Ubuntu', sans-serif;
+				/*font-family: 'Bree Serif', serif;*/
+			}
+	>>.sum
+			{
+				font-family: 'Ubuntu', sans-serif;
+				/*font-family: 'Bree Serif', serif;*/
+				/*font-weight: 10%;*/
+			}
+	>>.machine
+			{
+				font-family: 'Ubuntu', sans-serif;
+				/*font-family: 'Bree Serif', serif;
+				/*font-weight: 10%;*/
+				font-size: 2rem;
+			}
+	>> .paper
+			{
+				font-size: 2.5rem;
+				font-family: 'Ubuntu', sans-serif;
+				/*font-family: 'Bree Serif', serif;*/
+				font-weight: bold;
+			}
+	>>.paper
+			{
+				font-size: 5rem;
+				/*font-family: 'Bree Serif', serif;*/
+				font-family: 'Ubuntu', sans-serif;
+				font-weight: bold;
+			}
+>footer css
+	>>.foot
+			{
+				background-color: #62666d;
+				height: 5%;
+				color: white;
+			}
+
+		.add
+			{
+				padding-left: 5%;
+				padding-bottom: 0px;
+				margin-bottom: 0px;
+				padding-top: 1%;
+				vertical-align: middle;
+			}
+
+		.file
+			{
+				margin-left: 60%;
+				padding-right: 4%;
+				padding-bottom: 0px;
+				margin-bottom: 0px;
+				padding-top: .5%;
+			}
+
+		.saini
+				{
+					color: white;
+					font-weight: bold;
+				}
+
+> <div class="col-md-6 col-xs-12"><img src="Images/profile.jpg" class="img-thumbnail" id="home"></div>
+> <figcaption> <br><span class="center text">J.B.M.</span><br><br>
+> <figcaption> <br><span class="center text">R.E.W.</span><br><br>
+> <span class="sum">Raja Eng. Works. Worked here as Graduate Engineer Trainee [Design Engineer] on Die Designing.</span>
+> <span class="sum">Worked here as Graduate Engineer Trainee  on projects like Time Study of Escorts Bonnet Line and Escorts Front Top Line, Designing of Fixture, KAIZEN.</span>
+> <span class="sum">Dimension India Pvt. Ltd. Worked here as Junior Cad Engineer and worked on designing of Solar Roof tops panels on AutoCad.</span>
