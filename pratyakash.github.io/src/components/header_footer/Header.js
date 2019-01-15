@@ -38,6 +38,14 @@ class Header extends Component {
                             </div>
                         </div>
                     </div>
+
+                    <div className="nav-r">
+                        <div className="link_section">
+                            <div className="item">Education</div>
+                            <div className="item">Skills</div>
+                            <div className="item">Projects</div>
+                        </div>    
+                    </div>
                 
                 </div>
             </div>

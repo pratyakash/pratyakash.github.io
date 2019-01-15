@@ -11,6 +11,7 @@ html{
 html::-webkit-scrollbar { 
     display: none;  
 }
+
 .font_righteous {
     font-family: 'Righteous', cursive;
 }
@@ -63,4 +64,30 @@ canvas {
     100%{
         opacity: 1;
     }
+}
+
+
+.nav-r{
+    margin-right: 5px;
+    float: right;
+}
+
+.link_section{
+    display: flex;
+    flex-wrap: nowrap !important;
+    color: whitesmoke;
+}
+
+.item{
+    margin: 0 8px;
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    font-size: 1.5vw;
+    padding: 3px;
+}
+
+.item:hover{
+    background-color:whitesmoke;
+    color: rgb(33,36,50);
+    border-radius: 5px;
 }
