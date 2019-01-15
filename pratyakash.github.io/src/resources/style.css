@@ -27,6 +27,7 @@ body{
 .title{
     font-size: 3vw;
     color: whitesmoke;
+    animation: appear 1s ease-in;
 }
 
 canvas {
@@ -40,4 +41,19 @@ canvas {
     color: antiquewhite;
     display: inline-block;
     margin: 100px auto;
+    height: 1000px;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }

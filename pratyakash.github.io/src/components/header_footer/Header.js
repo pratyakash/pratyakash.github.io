@@ -1,6 +1,28 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
+    state={
+        headerLogo:false
+    }
+
+    componentDidMount(){
+        window.addEventListener('scroll',this.handleScroll);
+    }
+    
+    handleScroll = () =>{
+        if (window.scrollY >500 ) {
+            this.setState({
+                headerLogo:true
+            })
+            
+        } else {
+            this.setState({
+                headerLogo:false
+            })
+        }
+    }
+
+
     render() {
         return (
             <div>
@@ -9,7 +31,11 @@ class Header extends Component {
                     
                     <div className="nav-l">
                         <div className="title_wrap">
-                            <div className="title font_righteous">Pratyakash Saini</div>
+                            <div className="title font_righteous" style={{
+                                display:this.state.headerLogo ? 'block':'none'
+                            }}>
+                            Pratyakash Saini
+                            </div>
                         </div>
                     </div>
                 
