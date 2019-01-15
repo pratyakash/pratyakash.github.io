@@ -28,7 +28,7 @@ class Particle extends Component {
                     "move": {
                         "random": true,
                         "speed": 1,
-                        "direction": "top",
+                        "direction": "bottom",
                         "out_mode": "out"
                     }
                 },
