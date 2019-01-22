@@ -120,10 +120,11 @@ canvas {
     border-radius: 5px;
     transition: all .7s ease-out;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .special:hover{
-    font-size:7vmax;
+    font-size:6.5vmax;
     margin-right: 5px;
 }
 
@@ -136,4 +137,18 @@ html{
     cursor: crosshair;
 }
 
+.connect{
+    display: inline-block;
+    margin-top:  20px;
+}
+
+.connect a{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: .5vw;
+    margin-right: 20px;
+    font-size: 4vmin;
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
 
