@@ -13,7 +13,7 @@ class Intro extends Component {
                 <div className="connect">
                     <a href>Gmail</a>
                     <a href>Github</a>
-                    <a href></a>
+                    <a href>Resume</a>
                 </div>
             </div>
         );
