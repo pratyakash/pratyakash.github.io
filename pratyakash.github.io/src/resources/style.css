@@ -127,6 +127,11 @@ canvas {
     margin-right: 20px;
 }
 
+.special:active{
+    transform: scale(1);
+    margin-right: 8px;
+}
+
 html{
     cursor: crosshair;
 }
