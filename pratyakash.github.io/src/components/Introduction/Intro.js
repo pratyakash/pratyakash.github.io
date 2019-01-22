@@ -8,7 +8,12 @@ class Intro extends Component {
                     Pratyakash Saini
                 </div>
                 <div className="description">
-                    <h1>Hi, I am Front End Developer <span className="special">#ReactJS </span>based in India.</h1>
+                    <h1>Hi, I am Front End Developer <span className="special">#ReactJS </span>creates website that run across platforms & devices</h1>
+                </div>
+                <div className="connect">
+                    <a href>Gmail</a>
+                    <a href>Github</a>
+                    <a href></a>
                 </div>
             </div>
         );
