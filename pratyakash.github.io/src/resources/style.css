@@ -157,6 +157,8 @@ html{
 
 .connect a:hover{
     font-weight: bolder;
-    border-radius: 20px;
+}
+.connect a:active{
+    font-weight: normal;
 }
 
