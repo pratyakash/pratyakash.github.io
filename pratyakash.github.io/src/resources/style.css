@@ -98,14 +98,14 @@ canvas {
 
 .name{
     font-family: 'Lato', sans-serif;
-    font-size: 3em;
+    font-size: 3vmax;
     color: rgb(127, 127, 127);
 }
 
 .description{
     font-family: 'Ubuntu Condensed', sans-serif;
     color: white;
-    font-size: 3rem;
+    font-size:3vmax;
 }
 
 .description h1{
@@ -115,6 +115,10 @@ canvas {
 .special{
     background: white;
     color: black;
-    padding: 10px;
+    padding: 1vw;
     border-radius: 5px;
+}
+
+.special:hover{
+    font-size: 5vw;
 }
