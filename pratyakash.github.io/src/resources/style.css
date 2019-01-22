@@ -118,7 +118,7 @@ canvas {
     color: black;
     padding: .5vw;
     border-radius: 5px;
-    transition: all 1s ease;
+    transition: all .7s ease-out;
     cursor: pointer;
 }
 
@@ -128,7 +128,7 @@ canvas {
 }
 
 .special:active{
-    font-size:6vmax;;
+    font-size:6vmax;
     margin-right: 2px;
 }
 
