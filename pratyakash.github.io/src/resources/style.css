@@ -89,6 +89,7 @@ canvas {
     width: 80%;
     padding: 10px;
     /* background: blue; */
+    height: auto;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);  
@@ -104,9 +105,16 @@ canvas {
 .description{
     font-family: 'Ubuntu Condensed', sans-serif;
     color: white;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .description h1{
     margin: 0;
+}
+
+.special{
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
 }
