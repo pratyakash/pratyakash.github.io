@@ -6,11 +6,10 @@ class Project extends Component {
         return (
             <div>
                 <div className="project_body">
-                    <div className="project_list">
-                        <div className="project_item">
-                            <img src={first} className="project_image"></img>
-                        </div>
-                    </div>
+                    <img src={first} className="project_image"></img>
+                    <img src={first} className="project_image"></img>
+                    <img src={first} className="project_image"></img>
+                    <img src={first} className="project_image"></img>
                 </div>
             </div>
         );
