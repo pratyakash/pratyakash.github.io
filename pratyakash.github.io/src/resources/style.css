@@ -162,3 +162,12 @@ html{
     font-weight: normal;
 }
 
+.project_list{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+}
+
+.project_image{
+min-width: 200px;
+min-height: 200px;
+}
