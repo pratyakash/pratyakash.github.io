@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import first from '../../resources/images/first.png'
 
 class Project extends Component {
     render() {
@@ -6,8 +7,8 @@ class Project extends Component {
             <div>
                 <div className="project_body">
                     <div className="project_list">
-                        <div className="project_image">
-
+                        <div className="project_item">
+                            <img src={first} className="project_image"></img>
                         </div>
                     </div>
                 </div>

@@ -84,8 +84,8 @@ canvas {
 }
 .intro{
     position: absolute;
-    display: block;
-    height: auto;
+    display: inline-block;
+    height: 100%;
     width: 80%;
     padding: 10px;
     /* background: blue; */
@@ -162,12 +162,15 @@ html{
     font-weight: normal;
 }
 
+.project_body{
+    display: block;
+    position: relative;
+}
 .project_list{
-    display: -webkit-inline-flex;
-    display: inline-flex;
 }
 
 .project_image{
-min-width: 200px;
-min-height: 200px;
+display: inline-block;
+max-width: 200px !important;
+max-height: 200px !important;
 }
