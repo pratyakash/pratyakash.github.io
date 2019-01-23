@@ -15,6 +15,9 @@ class Intro extends Component {
                     <a href>#Github</a>
                     <a href>#Curriculum Vitae</a>
                 </div>
+                <div>
+                    
+                </div>
             </div>
         );
     }
