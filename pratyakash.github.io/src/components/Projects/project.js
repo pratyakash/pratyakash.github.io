@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import venue from '../../resources/images/venue2.jpg'
+import venue from '../../resources/images/My Post.jpg'
 
 class Project extends Component {
     render() {

@@ -88,10 +88,10 @@ canvas {
     position: relative;
     display: inline-block;
     min-height: 100vh;
-    width: 80%;
+    width: 90%;
     padding: 10px;
     top: 20%;
-    margin-left: 10%;
+    margin-left: 5%;
     /* background: blue; */
     transform: translate(-0%, 20%);
 
@@ -106,7 +106,7 @@ canvas {
 .description{
     font-family: 'Ubuntu Condensed', sans-serif;
     color: white;
-    font-size:3vmax;
+    font-size:3.5vmax;
 }
 
 .description h1{
@@ -125,7 +125,7 @@ canvas {
 }
 
 .special:hover{
-    font-size:6.5vmax;
+    font-size:8vmax;
     margin-right: 5px;
 }
 
