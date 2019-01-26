@@ -164,8 +164,10 @@ html{
 }
 
 .project_body{
-    display: block;
+    display: inline-block;
     position: relative;
+    width: 80%;
+    margin-left: 10%;
 }
 
 
