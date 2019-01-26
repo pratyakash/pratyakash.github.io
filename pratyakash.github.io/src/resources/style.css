@@ -177,8 +177,17 @@ html{
     max-width: 100% !important;
     max-height: 100% !important;
     border-radius: 2px;
+    z-index: -9999;
 }
 
 .white{
     color: white;
+}
+.text{
+    display: block;
+    transition: all .2s ease;
+    opacity: 0;
+}
+.project_image:hover .text{
+    opacity: 1 !important;
 }

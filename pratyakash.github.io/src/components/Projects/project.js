@@ -8,7 +8,6 @@ class Project extends Component {
                 <div className="project_body">
                    <div >
                        <img src={venue} className="project_image" />
-                       <p className="white">adawdwda</p>
                    </div>
                 </div>
             </div>
