@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import first from '../../resources/images/first.png'
+import venue from '../../resources/images/venue2.jpg'
 
 class Project extends Component {
     render() {
         return (
             <div>
                 <div className="project_body">
-                    <img src={first} className="project_image"></img>
-                    <img src={first} className="project_image"></img>
-                    <img src={first} className="project_image"></img>
-                    <img src={first} className="project_image"></img>
+                   <div >
+                       <img src={venue} className="project_image" />
+                       <p className="white">adawdwda</p>
+                   </div>
                 </div>
             </div>
         );
