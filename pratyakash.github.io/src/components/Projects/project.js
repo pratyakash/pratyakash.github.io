@@ -6,7 +6,7 @@ class Project extends Component {
         return (
             <div>
                 <div className="project_body">
-                   <div >
+                   <div>
                        <img src={venue} className="project_image" />
                    </div>
                 </div>
