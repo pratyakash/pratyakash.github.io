@@ -6,9 +6,13 @@ class Project extends Component {
         return (
             <div>
                 <div className="project_body">
-                   <div>
+                    <div className="project_title">
+                        <h1>Projects</h1>
+                    </div>
+
+                   {/* <div>
                        <img src={venue} className="project_image" />
-                   </div>
+                   </div> */}
                 </div>
             </div>
         );
