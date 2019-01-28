@@ -1,3 +1,7 @@
+/*====================
+        GLOBAL
+======================*/
+
 body{
     margin: 0;
     padding: 0;
@@ -7,10 +11,18 @@ body{
 }
 
 
-
 .font_righteous {
     font-family: 'Righteous', cursive;
 }
+
+html{
+    cursor: crosshair;
+}
+
+
+/*====================
+        NAVIGATION
+======================*/
 
 .nav{
     position: absolute;
@@ -33,31 +45,6 @@ body{
     color: whitesmoke;
     animation: appear 1s ease-in;
 }
-
-canvas {
-    position: relative;
-    display:block;
-    background: rgb(0,0,0);
-    position: fixed;
-    z-index: -2222;
-}
-
-
-
-@keyframes appear{
-    0%{
-        opacity: 0;
-    }
-
-    50%{
-        opacity: 0.5;
-    }
-
-    100%{
-        opacity: 1;
-    }
-}
-
 
 .nav-r{
     margin-right: 5px;
@@ -85,6 +72,13 @@ canvas {
     cursor: pointer;
     font-size: 1.6vw;
 }
+
+
+
+/*====================
+       INTRODUCTION
+======================*/
+
 .intro{
     position: relative;
     display: inline-block;
@@ -135,9 +129,6 @@ canvas {
     margin-right: 2px;
 }
 
-html{
-    cursor: crosshair;
-}
 
 .connect{
     display: inline-block;
@@ -165,6 +156,13 @@ html{
     font-weight: normal;
 }
 
+
+
+
+/*====================
+       PROJECTS
+======================*/
+
 .project_body {
     display: inline-block;
     position: relative;
@@ -181,9 +179,6 @@ html{
     z-index: -9999;
 }
 
-.white{
-    color: white;
-}
 .text{
     display: block;
     transition: all .2s ease;
@@ -192,3 +187,28 @@ html{
 .project_image:hover .text{
     opacity: 1 !important;
 }
+
+
+
+
+
+/*====================
+       ANIMATIONS
+======================*/
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
