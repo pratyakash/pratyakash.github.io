@@ -85,10 +85,11 @@ html{
     min-height: 100vh;
     width: 90%;
     padding: 10px;
-    top: 20%;
+    top: 10%;
     margin-left: 5%;
     /* background: blue; */
-    transform: translate(-0%, 20%);
+    transform: translate(-0%, 10%);
+    box-sizing: border-box;
 
 }
 
@@ -156,8 +157,25 @@ html{
     font-weight: normal;
 }
 
-
-
+.click_me_body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-left: 45%;
+    
+}
+.click_me_body button{
+    outline: none;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    animation-duration: 1s;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
 
 /*====================
        PROJECTS
@@ -207,6 +225,20 @@ html{
 
     100%{
         opacity: 1;
+    }
+}
+
+@keyframes move{
+    0%{
+        transform: translateY(10px);
+    }
+
+    50%{
+        transform: translateY(20px);
+    }
+
+    100%{
+        transform: translateY(10px);
     }
 }
 

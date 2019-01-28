@@ -15,8 +15,8 @@ class Intro extends Component {
                     <a href>#Github</a>
                     <a href>#Curriculum Vitae</a>
                 </div>
-                <div>
-                    
+                <div className="click_me_body">
+                    <button><i class="fas fa-angle-down fa-3x"></i></button>
                 </div>
             </div>
         );
