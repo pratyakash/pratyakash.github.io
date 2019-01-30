@@ -14,7 +14,7 @@ class Project extends Component {
                     </div>
                     <div className="project_picture">
                         {/* <img src={venue} className="project_image" /> */}
-                        <figure className="imghvr-push-up">
+                        <figure className="imghvr-blur">
                             <img src={venue} className="project_image" />
                             <figcaption>
                                 Hover Content
