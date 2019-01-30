@@ -219,6 +219,13 @@ html{
     font-size: 3vmax;
 }
 
+.project_picture{
+    max-width: 900px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*====================
        ANIMATIONS
