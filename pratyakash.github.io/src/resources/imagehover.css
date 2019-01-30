@@ -28,7 +28,7 @@
 }
 
 [class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {
-    background-color: #135796;
+    background-color: rgb(127, 127, 127);
     padding: 30px;
     position: absolute;
     top: 0;
@@ -212,7 +212,7 @@
     left: 0;
     right: 0;
     content: '';
-    background-color: #135796;
+    background-color: rgb(127, 127, 127);
 }
 
 [class^='imghvr-reveal-'] figcaption, [class*=' imghvr-reveal-'] figcaption {
@@ -457,7 +457,7 @@
 /* imghvr-shutter-out-*
    ----------------------------- */
 [class^='imghvr-shutter-out-']:before, [class*=' imghvr-shutter-out-']:before {
-    background: #135796;
+    background: rgb(127, 127, 127);
     position: absolute;
     content: '';
     transition-delay: 0.105s;
@@ -538,7 +538,7 @@
 /* imghvr-shutter-in-*
    ----------------------------- */
 [class^='imghvr-shutter-in-']:after, [class^='imghvr-shutter-in-']:before, [class*=' imghvr-shutter-in-']:after, [class*=' imghvr-shutter-in-']:before {
-    background: #135796;
+    background: rgb(127, 127, 127);
     position: absolute;
     content: '';
 }
