@@ -214,7 +214,8 @@ html{
 }
 
 .project_name{
-    color:white;
+    color:rgb(127, 127, 127);
+    font-family: 'Lato', sans-serif;
 }
 
 
