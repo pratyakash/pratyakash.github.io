@@ -13,7 +13,13 @@ class Project extends Component {
                         BoilerPlate For Landing Page
                     </div>
                     <div className="project_picture">
-                        <img src={venue} className="project_image" />
+                        {/* <img src={venue} className="project_image" /> */}
+                        <figure className="imghvr-push-up">
+                            <img src={venue} className="project_image" />
+                            <figcaption>
+                                Hover Content
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
             </div>

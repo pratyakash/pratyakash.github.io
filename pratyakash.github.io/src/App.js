@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './resources/style.css';
+import './resources/imagehover.min.css';
 import Header from './components/header_footer/Header';
 
 import Intro from './components/Introduction/Intro';
