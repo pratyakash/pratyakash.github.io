@@ -9,7 +9,9 @@ class Project extends Component {
                     <div className="project_title">
                         <h1>Projects</h1>
                     </div>
-
+                    <div className="project_name">
+                        BoilerPlate for Landing Page
+                    </div>
                    {/* <div>
                        <img src={venue} className="project_image" />
                    </div> */}
