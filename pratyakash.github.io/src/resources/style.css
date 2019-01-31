@@ -217,6 +217,8 @@ html{
     color:rgb(127, 127, 127);
     font-family: 'Roboto Slab', serif;
     font-size: 3vmax;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .project_picture{
@@ -225,6 +227,7 @@ html{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 80px;
 }
 
 
