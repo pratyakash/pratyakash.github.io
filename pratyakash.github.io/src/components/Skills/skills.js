@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import htmlico from '../../resources/images/html.png';
 import cssico from '../../resources/images/css.png';
 import jsico from '../../resources/images/js.png';
+import bsico from '../../resources/images/bs.png';
 
 class skills extends Component {
     state={
-        icon:[htmlico,cssico,jsico]
+        icon:[htmlico,cssico,jsico,bsico]
     }
     render() {
         return (
