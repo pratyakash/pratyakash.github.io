@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import htmlico from '../../resources/images/html.png'
 
 class skills extends Component {
     state={
-        icon:[]
+        icon:[htmlico]
     }
     render() {
         return (
