@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './resources/style.css';
+import './resources/scss/style.scss';
 import './resources/imagehover.min.css';
 import Header from './components/header_footer/Header';
 
