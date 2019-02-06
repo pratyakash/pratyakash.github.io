@@ -4,17 +4,20 @@ import cssico from '../../resources/images/css.png';
 import jsico from '../../resources/images/js.png';
 import bsico from '../../resources/images/bs.png';
 
-class skills extends Component {
+class Skills extends Component {
     state={
         icon:[htmlico,cssico,jsico,bsico]
     }
     render() {
         return (
             <div>
-                
+                <img src={htmlico} />
+                <img src={cssico} />
+                <img src={jsico} />
+                <img src={bsico} />
             </div>
         );
     }
 }
 
-export default skills;
+export default Skills;
