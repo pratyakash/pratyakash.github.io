@@ -138,7 +138,6 @@ html{
     border-radius: 5px;
     transition: all .7s ease-out;
     cursor: pointer;
-    margin-top: 10%;
     text-decoration: none;
 }
 
@@ -155,7 +154,8 @@ html{
 
 .connect{
     display: inline-block;
-    margin-top:  20px;
+    position: absolute;
+    top: 85%;
 }
 
 .connect a{
@@ -186,14 +186,14 @@ html{
     margin-left: auto;
     margin-right: auto;
     margin-top: 4.2vmax;
-    margin-left: 45%;
+    margin-left: 90%;
     
 }
 .click_me_body button{
     outline: none;
     background: transparent;
     border: none;
-    color: white;
+    color: black;
     cursor: pointer;
     animation-duration: 1s;
     animation-name: move;
