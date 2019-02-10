@@ -96,13 +96,13 @@ html{
     // box-sizing: border-box;
     // border: 20px solid black;
     // border-radius: 5px;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 15%;
     left: 50%;
     width: 80%;
-    height: auto;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    max-height: 100vh;
+    -webkit-transform: translate(-50%, 15%);
+    transform: translate(-50%, 15%);
     border: 10px solid black;
     padding: 10px;
     border-radius: 10px;
