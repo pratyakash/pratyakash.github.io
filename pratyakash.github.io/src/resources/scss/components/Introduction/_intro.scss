@@ -1,0 +1,117 @@
+.intro{
+    // position: relative;
+    // display: inline-block;
+    // max-height: 100vh;
+    // width: 80%;
+    // padding: 10px;
+    // top: 50%;
+    // left: 50%;
+    // margin-left: 10%;
+    // background: blue; 
+    // transform: translate(-50%, -50%);
+    // box-sizing: border-box;
+    // border: 20px solid black;
+    // border-radius: 5px;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    width: 80%;
+    max-height: 100vh;
+    -webkit-transform: translate(-50%, 15%);
+    transform: translate(-50%, 15%);
+    border: 10px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.name{
+    // font-family: 'Lato', sans-serif;
+    // font-family: 'Amiri', serif;
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+    // font-style: italic;
+    font-size: 3vmax;
+    color: $color-primary;
+}
+
+.description{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+    font-size:3.2vmax;
+    text-align: justify;
+}
+
+.description h1{
+    margin: 0;
+}
+
+.special{
+    display: inline;
+    background: black;
+    color: white;
+    padding: .5vw;
+    border-radius: 5px;
+    transition: all .7s ease-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.special:hover{
+    font-size:7vmax;
+    margin-right: 4.5px;
+}
+
+.special:active{
+    font-size:6vmax;
+    margin-right: 2px;
+}
+
+
+.connect{
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+}
+
+.connect a{
+    display: inline-block;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: .5vw;
+    margin-right: 20px;
+    font-size: 4vmin;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    transition: all .1s ease-out;
+    cursor: pointer;
+    text-decoration: none;
+    animation-duration: 1s;
+    animation-name: moveconnect;
+}
+
+.connect a:hover{
+    font-weight: bolder;
+}
+.connect a:active{
+    font-weight: normal;
+}
+
+.click_me_body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.2vmax;
+    margin-left: 90%;
+    
+}
+.click_me_body button{
+    outline: none;
+    background: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    animation-duration: 1s;
+    animation-name: move;
+    animation-iteration-count: infinite;
+}
