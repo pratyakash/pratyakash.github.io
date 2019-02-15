@@ -2,6 +2,7 @@
 @import './mixins/mixins';
 @import './components/Introduction/intro';
 @import './animations/animations';
+@import './components/Projects/projects';
 /*====================
         GLOBAL
 ======================*/
@@ -88,55 +89,6 @@ html{
        PROJECTS
 ======================*/
 
-.project_body {
-    display: inline-block;
-    position: relative;
-    width: 80%;
-    margin-left: 10%;
-    padding-top: 2%;
-}
-
-
-.project_image{
-    display: block;
-    max-width: 100% !important;
-    max-height: 100% !important;
-    border-radius: 2px;
-    z-index: -9999;
-}
-
-.text{
-    display: block;
-    transition: all .2s ease;
-    opacity: 0;
-}
-.project_image:hover .text{
-    opacity: 1 !important;
-}
-
-.project_title h1{
-    color: white;
-    font-size: 4vmax;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-weight: 100;
-}
-
-.project_name{
-    color:rgb(127, 127, 127);
-    font-family: 'Roboto Slab', serif;
-    font-size: 3vmax;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.project_picture{
-    max-width: 900px;
-    margin-top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
-}
 
 
 
