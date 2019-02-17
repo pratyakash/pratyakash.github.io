@@ -6,7 +6,8 @@ import bsico from '../../resources/images/bs.png';
 
 class Skills extends Component {
     state={
-        icon:[htmlico,cssico,jsico,bsico]
+        icon:[htmlico,cssico,jsico,bsico],
+        showExp: false
     }
 
     showIcon = () => (
