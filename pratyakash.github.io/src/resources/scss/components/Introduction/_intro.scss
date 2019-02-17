@@ -88,6 +88,10 @@
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+    -webkit-box-shadow: 6px 6px 7px -3px rgba(0,0,0, 0.9);
+    -moz-box-shadow: 6px 6px 7px -3px rgba(0,0,0, 0.9);
+    box-shadow: 6px 6px 7px -3px rgba(0,0,0,0.9);
+
 }
 
 .connect a:hover{
