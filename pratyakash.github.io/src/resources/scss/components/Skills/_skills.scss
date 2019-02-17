@@ -1,0 +1,18 @@
+
+.skill_wrapper{
+    &_title{
+
+    }
+
+    &_icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &_icon_wrapper{
+        max-height:200px;
+        max-width: 200px; 
+    }
+}
