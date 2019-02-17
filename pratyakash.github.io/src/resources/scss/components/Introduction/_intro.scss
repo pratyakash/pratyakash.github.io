@@ -1,19 +1,16 @@
 .intro_wrapper{
     background:blue;
     height: 100vh;
+    justify-content: center;
+    align-item: center;
 }
 
 .intro{
-    // position: relative;
-    // top: 15%;
-    // left: 50%;
-    // width: 80%;
+    width: 80%;
     // height: 80vh;
-    // -webkit-transform: translate(-50%, 15%);
-    // transform: translate(-50%, 15%);
-    // border: 10px solid black;
-    // padding: 10px;
-    // border-radius: 10px;
+    border: 10px solid black;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .name{
