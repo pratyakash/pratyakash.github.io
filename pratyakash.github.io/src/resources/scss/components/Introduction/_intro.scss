@@ -1,5 +1,5 @@
 .intro_wrapper{
-    background:blue;
+    // background:blue;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,6 @@
 
 .intro{
     width: 80%;
-    // height: 80vh;
     border: 10px solid black;
     padding: 10px;
     border-radius: 10px;
@@ -60,8 +59,9 @@
 
 .connect{
     display: inline-block;
-    position: absolute;
-    top: 85%;
+    // position: absolute;
+    // top: 85%;
+    margin-top:1%;
 }
 
 .connect a{
@@ -92,10 +92,10 @@
 
 .click_me_body{
     display: block;
+    float: right;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4.2vmax;
-    margin-left: 90%;
+    margin-top: 1%;
     
 }
 .click_me_body button{
