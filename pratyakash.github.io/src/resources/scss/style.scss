@@ -79,17 +79,20 @@ html{
 }
 
 
-
-
-
 .skill_wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+    &_title{
 
-.icon_wrapper{
-    max-height:200px;
-    max-width: 200px; 
+    }
+
+    &_icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &_icon_wrapper{
+        max-height:200px;
+        max-width: 200px; 
+    }
 }

@@ -11,13 +11,16 @@ class Skills extends Component {
 
     showIcon = () => (
         this.state.icon.map((icon,index) =>(
-            <img src={ this.state.icon[index] } className="icon_wrapper" />
+            <img src={ this.state.icon[index] } className="skill_wrapper_icon_wrapper" />
         ))
     )
     render() {
         return (
-            <div>
-                <div className="skill_wrapper">
+            <div className="skill_wrapper">
+                <div className="skill_wrapper_title">
+                    <h1>Skills</h1>
+                </div>
+                <div className="skill_wrapper_icons">
                     {this.showIcon()}
                 </div>
             </div>
