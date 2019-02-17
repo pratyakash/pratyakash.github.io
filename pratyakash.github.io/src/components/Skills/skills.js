@@ -23,7 +23,9 @@ class Skills extends Component {
                 </div>
                 <div className="skill_wrapper_icons">
                     {/* {this.showIcon()} */}
-                    <img src={ htmlico } className="skill_wrapper_icon_wrapper" />
+                    <div className="skill_wrapper_icon_wrapper">
+                        <img src={ htmlico } className="skill_wrapper_icon_wrapper_icon" />
+                    </div>
                 </div>
             </div>
         );
