@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import venue from '../../resources/images/venue3.jpg'
+import venue from '../../resources/images/v1.png'
 import wea from '../../resources/images/wea.png'
 
 class Project extends Component {
@@ -14,13 +14,9 @@ class Project extends Component {
                         BoilerPlate For Landing Page
                     </div>
                     <div className="project_picture">
-                        {/* <img src={venue} className="project_image" /> */}
-                        <figure className="imghvr-blur">
-                            <img src={venue} className="project_image" />
-                            <figcaption>
-                                Hover Content
-                            </figcaption>
-                        </figure>
+                        <img src={venue} className="project_image" />
+                        <img src={venue} className="project_image" />
+                        <img src={venue} className="project_image" />
                     </div>
 
                     <div className="project_name">

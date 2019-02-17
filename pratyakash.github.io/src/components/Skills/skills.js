@@ -8,13 +8,18 @@ class Skills extends Component {
     state={
         icon:[htmlico,cssico,jsico,bsico]
     }
+
+    showIcon = () => (
+        this.state.icon.map((icon,index) =>(
+            <img src={ this.state.icon[index] } className="icon_wrapper" />
+        ))
+    )
     render() {
         return (
             <div>
-                <img src={htmlico} />
-                <img src={cssico} />
-                <img src={jsico} />
-                <img src={bsico} />
+                <div className="skill_wrapper">
+                    {this.showIcon()}
+                </div>
             </div>
         );
     }
