@@ -1,5 +1,12 @@
 
 .skill_wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    &_skill{
+        max-width: 80%;
+    }
 
     &_title{
 
@@ -8,14 +15,16 @@
     &_icons{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        
     }
 
     &_icon_wrapper{
-        min-height:200px;
+        min-height:250px;
         min-width: 150px;
         background-color: blue;
+        // margin: 5px;
 
         &_icon{
             display: block;

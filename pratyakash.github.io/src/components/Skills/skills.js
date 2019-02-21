@@ -24,6 +24,7 @@ class Skills extends Component {
     render() {
         return (
             <div className="skill_wrapper">
+                <div className="skill_wrapper_skills">
                 <div className="skill_wrapper_title">
                     <h1>Skills</h1>
                 </div>
@@ -32,6 +33,7 @@ class Skills extends Component {
                     {/* <div className="skill_wrapper_icon_wrapper">
                         <img src={ htmlico } className="skill_wrapper_icon_wrapper_icon" />
                     </div> */}
+                </div>
                 </div>
             </div>
         );
