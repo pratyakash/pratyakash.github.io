@@ -6,10 +6,11 @@ import bsico from '../../resources/images/bs.png';
 import sasico from '../../resources/images/Sass.png';
 import jqico from '../../resources/images/Jquery.png';
 import rsico from '../../resources/images/React.png';
+import rdico from '../../resources/images/Redux.png';
 
 class Skills extends Component {
     state={
-        icon:[htmlico,cssico,jsico,bsico,sasico, jqico, rsico],
+        icon:[htmlico,cssico,jsico,bsico,sasico, jqico, rsico, rdico],
         showExp: false
     }
 
