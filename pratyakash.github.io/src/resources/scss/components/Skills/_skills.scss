@@ -1,5 +1,6 @@
 
 .skill_wrapper{
+
     &_title{
 
     }
@@ -7,20 +8,20 @@
     &_icons{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 
     &_icon_wrapper{
-        min-height:100px;
-        min-width: 100px;
+        min-height:200px;
+        min-width: 150px;
         background-color: blue;
 
         &_icon{
             display: block;
             margin: auto;
-            max-width: 50px;
-            max-height: 50px;
+            max-width: 80px;
+            max-height: 80px;
         }
     }
 }

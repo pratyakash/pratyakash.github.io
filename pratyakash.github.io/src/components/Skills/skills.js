@@ -16,7 +16,9 @@ class Skills extends Component {
 
     showIcon = () => (
         this.state.icon.map((icon,index) =>(
-            <img src={ this.state.icon[index] } className="skill_wrapper_icon_wrapper" />
+            <div className="skill_wrapper_icon_wrapper">
+            <img src={ this.state.icon[index] } className="skill_wrapper_icon_wrapper_icon" />
+            </div>
         ))
     )
     render() {
@@ -26,10 +28,10 @@ class Skills extends Component {
                     <h1>Skills</h1>
                 </div>
                 <div className="skill_wrapper_icons">
-                    {/* {this.showIcon()} */}
-                    <div className="skill_wrapper_icon_wrapper">
+                    {this.showIcon()}
+                    {/* <div className="skill_wrapper_icon_wrapper">
                         <img src={ htmlico } className="skill_wrapper_icon_wrapper_icon" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         );
