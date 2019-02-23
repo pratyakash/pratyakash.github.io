@@ -3,9 +3,12 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    // background: red;/
     
-    &_skill{
-        max-width: 80%;
+    &_skills{
+        width: 80%;
+        // background: green;
+        padding: 10px;
     }
 
     &_title{
