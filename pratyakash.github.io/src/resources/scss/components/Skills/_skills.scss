@@ -1,5 +1,6 @@
 
 .skill_wrapper{
+    
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -20,6 +21,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        margin-right: .8rem;
         
     }
 
