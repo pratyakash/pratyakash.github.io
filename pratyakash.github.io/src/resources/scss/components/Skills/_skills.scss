@@ -22,14 +22,17 @@
         justify-content: space-between;
         align-items: center;
         margin-right: .8rem;
+
         
     }
 
     &_icon_wrapper{
-        min-height:250px;
-        min-width: 150px;
+        height:100px;
+        width: 100px;
         background-color: blue;
-        // margin: 5px;
+        vertical-align: middle;
+        padding: 20px;
+        border-radius: 50%;
 
         &_icon{
             display: block;
