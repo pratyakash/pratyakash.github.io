@@ -2,15 +2,7 @@
     height: 100vh;
     position: relative;
 
-    svg {
-        position: absolute;
-        bottom: 0;
-        transform:rotate(0deg); 
-        transition: 0.3s
+    background-color: #ffffff;
 
-        path {
-            transform:translate(0, 0px); 
-            opacity:1;
-        }
-    }
+    padding: 50px;
 }
