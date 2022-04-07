@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero__image_wrapper">
-        <Image src="/hero.png" alt="hero_image" layout="fill" objectFit="contain" />
+        <Image src="/images/hero.png" alt="hero_image" layout="fill" objectFit="contain" />
       </div>
     </div>
   );
