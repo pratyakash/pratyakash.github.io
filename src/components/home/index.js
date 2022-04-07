@@ -1,9 +1,9 @@
-import Header from "../header";
+import Hero from "../hero";
 
 const Home = () => {
   return (
     <div className="homepage__wrapper">
-      <div></div>
+      <Hero />
     </div>
   );
 };

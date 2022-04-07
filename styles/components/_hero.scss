@@ -1,0 +1,13 @@
+.hero {
+    &__image_wrapper {
+        width: 200px;
+        height: 200px;
+
+        position: relative;
+
+        @include for-tablet-and-mobile {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
