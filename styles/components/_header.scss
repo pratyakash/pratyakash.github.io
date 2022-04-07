@@ -2,4 +2,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 20px;
+
+    font-family: $primary-font_family;
+
+    &__logo {
+        width: 20%;
+    }
+
+    &__elements {
+        width: 80%;
+        font-weight: $font-weight_bold;
+        color: $primary-color;
+    }
 }
